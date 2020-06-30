@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+
 </head>
 
-<body  onload="paramGetter()">
-        <p>The name passed is: <span id="myText"></span>
+<body onload="paramGetter()">
+    <div class="main-info">
+        <p>Hello <span id="myText"></span>
         </p>
+        <div>
+            <h1>welcom ya kbeer</h1>
+            <img class="sound-mandala" src="./media/Healing_Icon_Gold.4-01.png" alt="" onclick="toggle()">
+            <!-- <img class="sound-mandala" src="./media/Healing_Icon_Gold.4-01.png" alt="" onclick="audio.play()"> -->
 
-        
+        </div>
+    </div>
 </body>
 <script>
-    function paramGetter(){
-    const queryString = window.location.search;
-    //console.log(queryString);
-    const urlParams = new URLSearchParams(queryString);
-    const name = urlParams.get('name')
-    const tele = urlParams.get('tel')
-    console.log(name);
-    document.getElementById("myText").innerHTML = name + " " + tele;
+    function paramGetter() {
+        const queryString = window.location.search;
+        //console.log(queryString);
+        const urlParams = new URLSearchParams(queryString);
+        const name = urlParams.get('name')
+        console.log(name);
+        document.getElementById("myText").innerHTML = name;
+    }
+
+
+    //////////////////////////////////////////////////////audio
+    var audio = new Audio("media/122647__juskiddink__singing-bowl-2.wav");
+
+    audio.oncanplaythrough = function () {
+        audio.play();
+    }
+
+    audio.loop = true;
+
+    audio.onended = function () {
+        audio.play();
     }
 </script>
+
 </html>
 
 
