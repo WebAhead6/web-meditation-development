@@ -1,0 +1,33 @@
+container {
+  background-color:white;
+  width: 30%;
+ 
+}
+input, textarea {
+  width: 100%;
+  padding: 10px; 
+  border: 1px slategrey 
+  border-radius: 4px;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  
+}
+
+
+input[type=submit] {
+  background-color: #101110;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 20%;
+  align-items: center;
+  
+}
+
+
+
+.container {
+  background-color:white;
+  width: 25%;
+ 
+}

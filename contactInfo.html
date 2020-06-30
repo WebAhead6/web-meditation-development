@@ -7,7 +7,9 @@
 </head>
 
 <body  onload="paramGetter()">
-        <p>The name passed is: <span id="myText"></span>
+        <p>The name passed is: <span id="name"></span>
+        </p>
+        <p>The email passed is: <span id="email"></span>
         </p>
 
         
@@ -19,8 +21,11 @@
     const urlParams = new URLSearchParams(queryString);
     const name = urlParams.get('name')
     const tele = urlParams.get('tel')
+    const email=urlParams.get('email')
     console.log(name);
-    document.getElementById("myText").innerHTML = name + " " + tele;
+    document.getElementById("name").innerHTML = name ;
+    document.getElementById("email").innerHTML = email ;
+    
     }
 </script>
 </html>
