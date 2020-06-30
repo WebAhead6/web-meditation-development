@@ -166,7 +166,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: ##f1f1f12e;
+    color: #f1f1f1d3;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -246,3 +246,37 @@ header.masthead p {
   font-family: 'Ubuntu', sans-serif;
 }
 
+/* this is the form styling  */
+#form .container {
+  background-color:white;
+  width: 30%;
+ }
+
+#form input, textarea {
+  width: 100%;
+  padding: 10px; 
+  border: 1px slategrey 
+  border-radius: 4px;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+
+#form input[type=submit] {
+  background-color: #101110;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 20%;
+  align-items: center;
+  
+}
+
+
+
+#form .container {
+  background-color:white;
+  width: 25%;
+ 
+}
+}
