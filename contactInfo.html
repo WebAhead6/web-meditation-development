@@ -5,19 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="assets/css/css.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles  -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+        integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+        crossorigin="anonymous">
+    </head>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand  " href="main.html">Majititeam</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" id="dropdownMenu1" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="white" href="#info">mandala</a>
+              </li>
 
-</head>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 <body onload="paramGetter()">
     <div class="main-info">
         <div>
-            <p class="hello-ya"><strong>Hello <span id="myText"></span></strong> </p>
-            <p class="hello-ya-kbeer"><strong>welcom ya kbeer</strong><br>
-
-            </p>
-            <img id ="mandala" class="sound-mandala" src="./media/Healing_Icon_Gold.4-01.png" alt="" onclick="soundplayer()">
-            <p class="hello-ya">press on the wheel and start to meditate with us</p>
+                <div class="container my-auto">
+                  <div class="row">   
+                    <div class="col-lg-10 mx-auto text-center">
+                      <h1>
+                        <strong class="text-center white">Hi, <span id="myText"></span></strong>
+                      </h1>
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                        <p class="white text-center mb-5 ">welcome ya kbeer/e</p>
+          
+                    </div>
+                  </div>
+                </div>
+                <hr>
+            <img  id="mandala" class="sound-mandala" src="./media/Healing_Icon_Gold.4-01.png" alt="" onclick="soundplayer()">
+            <p class="hello-ya white text-center">  press on the wheel and start to meditate with us</p>
 
         </div>
     </div>
