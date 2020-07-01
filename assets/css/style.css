@@ -97,7 +97,6 @@ header.masthead {
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/background.png");
   background-position: center center;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 
