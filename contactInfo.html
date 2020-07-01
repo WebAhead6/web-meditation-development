@@ -16,7 +16,7 @@
             <p class="hello-ya-kbeer"><strong>welcom ya kbeer</strong><br>
 
             </p>
-            <img class="sound-mandala" src="./media/Healing_Icon_Gold.4-01.png" alt="" onclick="audio.play()">
+            <img id ="mandala" class="sound-mandala" src="./media/Healing_Icon_Gold.4-01.png" alt="" onclick="soundplayer()">
             <p class="hello-ya">press on the wheel and start to meditate with us</p>
 
         </div>
@@ -35,16 +35,19 @@
 
     //////////////////////////////////////////////////////audio
     var audio = new Audio("media/122647__juskiddink__singing-bowl-2.wav");
-
-    audio.oncanplaythrough = function () {
+    function soundplayer() {
         audio.play();
     }
+    // audio.oncanplaythrough = function () {
+    //     audio.play();
+    // }
 
-    audio.loop = true;
+    // audio.loop = true;
 
-    audio.onended = function () {
-        audio.play();
-    }
+    // audio.onended = function () {
+    //     audio.play();
+    // }
+
 </script>
 
 </html>
