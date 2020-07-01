@@ -31,17 +31,17 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Majititeam</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand  " href="#page-top">Majititeam</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" id="dropdownMenu1" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+              <a class="nav-link  " href="#info">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#info">Info</a>
+              <a class="nav-link  " href="#contact">contact</a>
             </li>
           </ul>
         </div>
@@ -102,9 +102,9 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section >
       <div class="container">
-        <div class="row">
+        <div class="row"  id="contact">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-title">Please sign up for our services!</h2>
             <hr class="my-4">
@@ -112,7 +112,7 @@
           </div>
         </div>
         <div class="container">
-            <form action="contactInfo.html" method="GET" id="form">
+            <form action="contactInfo.html" method="GET" class="formstyle">
             <div class="container">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your name"><br><br>
@@ -123,15 +123,11 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="comment" style="height:100px"></textarea><br><br>
             <input type="submit" value="Send">
-        
-        
             </form>
             </div>
-
         </div>
       </div>
     </section>
-
     <footer>
         <p class="container-fluid text-center"><b>Majititeam</b><span>*</span></p>
     </footer>

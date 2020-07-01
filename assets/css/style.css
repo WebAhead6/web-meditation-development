@@ -32,18 +32,12 @@ hr.light {
 
 a {
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
   transition: all 0.2s;
-}
-
-.pink {
-  color: #d8af45;
 }
 
 .white {
   color: #505457;
 }
-
 
 a:hover {
   color: #d8af45;
@@ -59,15 +53,6 @@ h6 {
   font-family: Dasis, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.bg-primary {
-  background-color: #FFFFFF !important;
-  color: #80475E;
-}
-
-.bg-dark {
-  background-color: #80475E; !important;
-}
-
 .text-faded {
   color: #80475E;
 }
@@ -80,34 +65,11 @@ section {
   margin-top: 0;
 }
 
-::-moz-selection {
-  color: #505457;
-  background: #754853;
-  text-shadow: none;
-}
-
-::selection {
-  color: #505457;
-  background: #754853;
-  text-shadow: none;
-}
-
-img::selection {
-  color: #505457;
-  background: transparent;
-}
-
-img::-moz-selection {
-  color: #505457;
-  background: transparent;
-}
-
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #505457;
+  background-color: #cecece75;
   font-family: Dasis, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
@@ -118,33 +80,6 @@ img::-moz-selection {
   font-family: Dasis, Arial, sans-serif;
 }
 
-#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #754853;
-}
-
-#mainNav .navbar-nav > li.nav-item > a.nav-link,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #754853;
-}
-
-#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #754853;
-}
-
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #754853 !important;
-  background-color: transparent;
-}
-
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-  background-color: transparent;
-}
 
 @media (min-width: 992px) {
   #mainNav {
@@ -152,39 +87,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #ccd0d3;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    padding: 0.5rem 1rem;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #f1f1f1d3;
-  }
-  #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: ##f1f1f12e;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    color: #d8af45;
-  }
-  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #d8af45;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #d8af45;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #d8af45;
+    color: #1a191983;
   }
 }
 
@@ -194,8 +97,6 @@ header.masthead {
   background-image: url("../img/background.png");
   background-position: center center;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -247,23 +148,21 @@ header.masthead p {
 }
 
 /* this is the form styling  */
-#form .container {
+.formstyle .container {
   background-color:white;
   width: 30%;
  }
 
-#form input, textarea {
+.formstyle input, textarea {
   width: 100%;
   padding: 10px; 
-  border: 1px slategrey 
   border-radius: 4px;
   margin-top: 6px; 
   margin-bottom: 16px; 
 }
 
 
-#form input[type=submit] {
-  background-color: #101110;
+.formstyle input[type=submit] {
   color: white;
   padding: 10px;
   border-radius: 8px;
@@ -272,11 +171,3 @@ header.masthead p {
   
 }
 
-
-
-#form .container {
-  background-color:white;
-  width: 25%;
- 
-}
-}
