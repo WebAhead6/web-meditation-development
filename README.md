@@ -9,6 +9,7 @@ our website uses bootstrap for the nav bar, this will also handle the screen siz
 ![](https://github.com/WebAhead6/web-meditation-development/blob/master/assets/img/monk.gif)
 
 This repo contains our Founders and Coders Week 1 project. After learning about and practicing working with HTML adn CSS 
+VISIT US HEERE: https://webahead6.github.io/web-meditation-development/index.html 
 
 ---
 
@@ -17,6 +18,8 @@ This repo contains our Founders and Coders Week 1 project. After learning about 
 1. `git clone https://github.com/WebAhead6/web-meditation-development.git`
 2. cd into the directory
 3. use live server to launch the local files
+or just use this link
+https://webahead6.github.io/web-meditation-development/index.html
 
 ---
 
