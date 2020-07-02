@@ -8,9 +8,7 @@ our website uses bootstrap for the nav bar, this will also handle the screen siz
 
 ![](https://github.com/WebAhead6/web-meditation-development/blob/master/assets/img/monk.gif)
 
-This repo contains our Founders and Coders Week 3 project. After learning about and practicing working with APIs to request information from the internet, we set to work on creating our own web app utilising (at least) two APIs.
-
-The website is live on GitHub pages. Access it using [this link](https://fac-sixteen.github.io/week-3-agony-yaunt/public/)!
+This repo contains our Founders and Coders Week 1 project. After learning about and practicing working with HTML adn CSS 
 
 ---
 
