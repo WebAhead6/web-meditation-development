@@ -33,7 +33,7 @@ https://webahead6.github.io/web-meditation-development/index.html
 ---
 
 ## What we struggled with  🧗🏼‍♂️
-- decidinng on the idea, the need of this site, annd who are our target audiance 
+- decidinng on the idea, the need of this site, and who are our target audiance 
 - <b>Mario</b> hating on our project due to the use of Javascript and jquery, we got some head smacking:( 
 - BUT we decided to prove him wrong! and we cleaned the site from any external libraries! in yo face!<br>
 - ![](https://media.giphy.com/media/Qumf2QovTD4QxHPjy5/giphy.gif)
